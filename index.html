@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style>
+		.reveal section img
+		{
+			border:none;
+			background: none;
+			box-shadow: none;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>git</h1>
+				</section>
+				<section>
+					<h2>distributed version control</h2>
+					<!-- don't need a central server -->
+					Linus Torvalds in 2005
+					<!-- heavily used by open source and closed source projects as well -->
+				</section>
+				<section>
+					What is version control?
+					<br/>
+					<br/>
+					<img class="fragment fade-in" src="gitg.png" />
+					<!-- Goal of version control:
+						* to save the whole project at a given (working) state,
+						* so that you can get back to it, if something is screwed up
+						Every green point is a version.
+						Not only software source code, but any other file.
+						Mostly good for text files, but will work with binary files as well.
+					-->
+					<!-- TODO: it allows multiple people to work on the same project at the same time -->
+				</section>
+				<section>
+					<h2>repository</h2>
+					A directory under version control.
+					<img class="fragment fade-in" src="gitrepo.png" />
+				</section>
+				<section>
+					<h1>git init</h1>
+					Create a new git repository
+				</section>
+				<section>
+					<script type="text/javascript" data-speed="2" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/ai4uz9pcxzat9dvymwtz36ue8.js" id="asciicast-ai4uz9pcxzat9dvymwtz36ue8" async></script>
+				</section>
+				<section>
+					<h1>git status</h1>
+					Show if any files <strong>changed</strong> or are <strong>untracked</strong> (not in repo).
+				</section>
+				<section>
+					<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/2akflxcxuazwrx38fufcip5d2.js" id="asciicast-2akflxcxuazwrx38fufcip5d2" async></script>
+				</section>
+				<section>
+					<h1>.gitignore</h1>
+					Tell git to <strong>ignore</strong> some files (build products, temporary files, huge binaries, etc.)
+				</section>
+				<section>
+					<script type="text/javascript" data-speed="1" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/bev9ogtp4osqopbyrk8rjgz9d.js" id="asciicast-bev9ogtp4osqopbyrk8rjgz9d" async></script>
+				</section>
+				<section>
+					<h1>git add</h1>
+					Add file to the Index (staging area)
+				</section>
+				<section>
+					<script type="text/javascript" data-speed="2" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/6r4aqiwkw2m7lczjofq5qtvgo.js" id="asciicast-6r4aqiwkw2m7lczjofq5qtvgo" async></script>
+				</section>
+				<section>
+					<h1>git commit</h1>
+					A <strong>commit</strong> is a version of the whole project.
+				</section>
+				<section>
+					<h1>git log</h1>
+					Show commits.
+				</section>
+				<section>
+					<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/9yifsukgfffm72t8pxcsv860s.js" id="asciicast-9yifsukgfffm72t8pxcsv860s" async></script>
+				</section>
+			</div>
+		</div>
+<!--
+Fogalmak: repository
+-->
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
