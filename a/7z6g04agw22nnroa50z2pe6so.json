@@ -1,0 +1,562 @@
+{
+  "stdout": [
+    [
+      1.572771,
+      "\u001b[?25h"
+    ],
+    [
+      0.000359,
+      "\u001b[0G"
+    ],
+    [
+      2.1e-05,
+      "\u001b[K"
+    ],
+    [
+      0.000119,
+      "\u001b[?25h"
+    ],
+    [
+      2.1e-05,
+      "\u001b[0G\u001b[K"
+    ],
+    [
+      0.492713,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                              \r \r"
+    ],
+    [
+      2.8e-05,
+      "\u001b]2;pcfl@ssd-mint: ~/test\u0007\u001b]1;~/test\u0007"
+    ],
+    [
+      0.099257,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[39m\u001b[0m\u001b[49m\u001b[40m\u001b[39m pcfl@ssd-mint \u001b[44m\u001b[30m\u001b[30m ~/test \u001b[42m\u001b[34m\u001b[30m  master \u001b[49m\u001b[32m\u001b[39m \u001b[K"
+    ],
+    [
+      7.9e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      8.943305,
+      "g"
+    ],
+    [
+      0.565303,
+      "\bgi"
+    ],
+    [
+      0.081685,
+      "t"
+    ],
+    [
+      0.084911,
+      " "
+    ],
+    [
+      1.388396,
+      "l"
+    ],
+    [
+      0.502109,
+      "o"
+    ],
+    [
+      0.108533,
+      "g"
+    ],
+    [
+      0.126353,
+      " "
+    ],
+    [
+      2.600633,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.000103,
+      "\r\r\n"
+    ],
+    [
+      0.001312,
+      "\u001b]2;git log\u0007\u001b]1;git\u0007"
+    ],
+    [
+      0.006372,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      8.1e-05,
+      "\u001b[33mcommit 8f2389e44af5e30c09f02b368fe1873a578d1cec\u001b[m\u001b[m\r\nAuthor: ha7ilm <retzlerandras@gmail.com>\u001b[m\r\nDate:   Fri Nov 18 10:47:03 2016 +0100\u001b[m\r\n\u001b[m\r\n    Added clean target to Makefile\u001b[m\r\n\u001b[m\r\n\u001b[33mcommit 658ae6b3072cfe6cf288dda39cbbd278a029ce74\u001b[m\u001b[m\r\nAuthor: ha7ilm <retzlerandras@gmail.com>\u001b[m\r\nDate:   Fri Nov 18 10:32:52 2016 +0100\u001b[m\r\n\u001b[m\r\n    Added another test\u001b[m\r\n\u001b[m\r\n\u001b[33mcommit db2a8ea35d523890793bc21aa17084261d7cb044\u001b[m\u001b[m\r\nAuthor: ha7ilm <retzlerandras@gmail.com>\u001b[m\r\nDate:   Fri Nov 18 10:00:30 2016 +0100\u001b[m\r\n\u001b[m\r\n    Initial commit\u001b[m\r\n"
+    ],
+    [
+      1.7e-05,
+      "\u001b[7m(END)\u001b[27m\u001b[K"
+    ],
+    [
+      6.678133,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.001227,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.000324,
+      "\u001b]2;pcfl@ssd-mint: ~/test\u0007\u001b]1;~/test\u0007"
+    ],
+    [
+      0.147399,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[39m\u001b[0m\u001b[49m\u001b[40m\u001b[39m pcfl@ssd-mint \u001b[44m\u001b[30m\u001b[30m ~/test \u001b[42m\u001b[34m\u001b[30m  master \u001b[49m\u001b[32m\u001b[39m \u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      2.964334,
+      "g"
+    ],
+    [
+      0.118695,
+      "\bgi"
+    ],
+    [
+      0.070173,
+      "t"
+    ],
+    [
+      0.087036,
+      " "
+    ],
+    [
+      0.163449,
+      "c"
+    ],
+    [
+      0.159163,
+      "h"
+    ],
+    [
+      0.077843,
+      "e"
+    ],
+    [
+      0.093077,
+      "c"
+    ],
+    [
+      0.175593,
+      "k"
+    ],
+    [
+      0.206288,
+      "o"
+    ],
+    [
+      0.189192,
+      "u"
+    ],
+    [
+      0.070494,
+      "t"
+    ],
+    [
+      0.101211,
+      " "
+    ],
+    [
+      0.524588,
+      "d"
+    ],
+    [
+      0.000332,
+      "b"
+    ],
+    [
+      0.000291,
+      "2"
+    ],
+    [
+      0.00031,
+      "a"
+    ],
+    [
+      0.000189,
+      "8"
+    ],
+    [
+      0.000319,
+      "e"
+    ],
+    [
+      0.000259,
+      "a"
+    ],
+    [
+      0.000254,
+      "3"
+    ],
+    [
+      0.000199,
+      "5"
+    ],
+    [
+      0.000217,
+      "d"
+    ],
+    [
+      0.000247,
+      "5"
+    ],
+    [
+      0.000308,
+      "2"
+    ],
+    [
+      0.000258,
+      "3"
+    ],
+    [
+      0.000253,
+      "8"
+    ],
+    [
+      0.000262,
+      "9"
+    ],
+    [
+      0.000289,
+      "0"
+    ],
+    [
+      0.000262,
+      "7"
+    ],
+    [
+      0.000234,
+      "9"
+    ],
+    [
+      0.000256,
+      "3"
+    ],
+    [
+      0.000282,
+      "b"
+    ],
+    [
+      7.2e-05,
+      "c"
+    ],
+    [
+      9.3e-05,
+      "2"
+    ],
+    [
+      6.9e-05,
+      "1"
+    ],
+    [
+      7.1e-05,
+      "a"
+    ],
+    [
+      7e-05,
+      "a"
+    ],
+    [
+      7.1e-05,
+      "1"
+    ],
+    [
+      5.7e-05,
+      "7"
+    ],
+    [
+      6.8e-05,
+      "0"
+    ],
+    [
+      7.2e-05,
+      "8"
+    ],
+    [
+      7.2e-05,
+      "4"
+    ],
+    [
+      8.5e-05,
+      "2"
+    ],
+    [
+      6.5e-05,
+      "6"
+    ],
+    [
+      7.2e-05,
+      "1"
+    ],
+    [
+      7.1e-05,
+      "d"
+    ],
+    [
+      7.1e-05,
+      "7"
+    ],
+    [
+      7.1e-05,
+      "c"
+    ],
+    [
+      7.1e-05,
+      "b"
+    ],
+    [
+      7.1e-05,
+      "0"
+    ],
+    [
+      7.1e-05,
+      "4"
+    ],
+    [
+      7.1e-05,
+      "4"
+    ],
+    [
+      2.264168,
+      "\u001b[?1l\u001b>\r\r\n"
+    ],
+    [
+      0.001618,
+      "\u001b]2;git checkout db2a8ea35d523890793bc21aa17084261d7cb044\u0007\u001b]1;git\u0007"
+    ],
+    [
+      0.007406,
+      "Note: checking out 'db2a8ea35d523890793bc21aa17084261d7cb044'.\r\n\r\nYou are in 'detached HEAD' state. You can look around, make experimental\r\nchanges and commit them, and you can discard any commits you make in this\r\nstate without impacting any branches by performing another checkout.\r\n\r\nIf you want to create a new branch to retain commits you create, you may\r\ndo so (now or later) by using -b with the checkout command again. Example:\r\n\r\n  git checkout -b new_branch_name\r\n\r\n"
+    ],
+    [
+      0.000577,
+      "HEAD is now at db2a8ea... Initial commit\r\n"
+    ],
+    [
+      0.000831,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.000167,
+      "\u001b]2;pcfl@ssd-mint: ~/test\u0007"
+    ],
+    [
+      5.7e-05,
+      "\u001b]1;~/test\u0007"
+    ],
+    [
+      0.149513,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[39m\u001b[0m\u001b[49m\u001b[40m\u001b[39m pcfl@ssd-mint \u001b[44m\u001b[30m\u001b[30m ~/test \u001b[42m\u001b[34m\u001b[30m ➦ db2a8ea \u001b[49m\u001b[32m\u001b[39m \u001b[K"
+    ],
+    [
+      0.000149,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      4.821032,
+      "v"
+    ],
+    [
+      1.104499,
+      "\b \b"
+    ],
+    [
+      0.17101,
+      "c"
+    ],
+    [
+      0.101142,
+      "\bca"
+    ],
+    [
+      0.215783,
+      "t"
+    ],
+    [
+      0.085964,
+      " "
+    ],
+    [
+      0.560793,
+      "\u0007"
+    ],
+    [
+      0.000169,
+      "\r\r\n"
+    ],
+    [
+      2.2e-05,
+      "\u001b[J\u001b[0mMakefile  \u001b[J\u001b[01;32mtest\u001b[0m*     \u001b[Jtest.c  \u001b[J\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m\r\u001b[38Ccat\u001b[K\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m\u001b[1C"
+    ],
+    [
+      1.406152,
+      "Makefile"
+    ],
+    [
+      0.00014,
+      "\r\r\n"
+    ],
+    [
+      3.5e-05,
+      "\u001b[J\u001b[7mMakefile\u001b[0m  \u001b[J\u001b[01;32mtest\u001b[0m*     \u001b[Jtest.c  \u001b[J\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m\r\u001b[38C"
+    ],
+    [
+      1.6e-05,
+      "cat Makefile\u001b[K\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m"
+    ],
+    [
+      0.178029,
+      "\r\r\n"
+    ],
+    [
+      0.000113,
+      "\u001b[7mMakefile\u001b[0m  \r\u001b[7mMakefile\u001b[0m  \r\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m\r\u001b[38Ccat Makefile\u001b[K\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m"
+    ],
+    [
+      5.3e-05,
+      "\u001b[8Dtest    \b\b\b\b"
+    ],
+    [
+      0.000568,
+      "\r\r\n"
+    ],
+    [
+      7.4e-05,
+      "\u001b[10C\u001b[7mtest*   \u001b[0m  \rMakefile  \r\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m\r\u001b[38Ccat test\u001b[K\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m"
+    ],
+    [
+      1.109057,
+      ".c"
+    ],
+    [
+      0.000539,
+      "\r\r\n"
+    ],
+    [
+      9.1e-05,
+      "\u001b[20C\u001b[7mtest.c  \u001b[0m\r\u001b[10C\u001b[01;32mtest\u001b[0m*     \r\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m\r\u001b[38Ccat test.c\u001b[K\u001b[0m\u001b[27m\u001b[24m\u001b[39m\u001b[49m"
+    ],
+    [
+      0.441351,
+      "\r\r\n\u001b[J\u001b[A\u001b[48C\u001b[1m \u001b[0m"
+    ],
+    [
+      0.414439,
+      "\b\u001b[0m \b"
+    ],
+    [
+      7.2e-05,
+      "\u001b[?1l\u001b>\r\r\n\u001b[J"
+    ],
+    [
+      0.001414,
+      "\u001b]2;cat test.c\u0007\u001b]1;cat\u0007"
+    ],
+    [
+      0.003078,
+      "#include <stdio.h>\r\n\r\nint main() \r\n{\r\n\tprintf(\"This is a test.\\n\");\r\n}\r\n"
+    ],
+    [
+      0.000523,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.000122,
+      "\u001b]2;pcfl@ssd-mint: ~/test\u0007"
+    ],
+    [
+      4.3e-05,
+      "\u001b]1;~/test\u0007"
+    ],
+    [
+      0.151466,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[39m\u001b[0m\u001b[49m\u001b[40m\u001b[39m pcfl@ssd-mint \u001b[44m\u001b[30m\u001b[30m ~/test \u001b[42m\u001b[34m\u001b[30m ➦ db2a8ea \u001b[49m\u001b[32m\u001b[39m \u001b[K"
+    ],
+    [
+      0.000106,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.541674,
+      "cat test.c"
+    ],
+    [
+      0.489415,
+      "\b \b"
+    ],
+    [
+      0.285777,
+      "\b\b\b\b\b     \b\b\b\b\b"
+    ],
+    [
+      0.522746,
+      "M"
+    ],
+    [
+      0.113692,
+      "a"
+    ],
+    [
+      0.097532,
+      "k"
+    ],
+    [
+      0.100685,
+      "e"
+    ],
+    [
+      0.236745,
+      "file\u001b[1m \u001b[0m"
+    ],
+    [
+      0.810302,
+      "\b\u001b[0m \b\u001b[?1l\u001b>"
+    ],
+    [
+      7.2e-05,
+      "\r\r\n"
+    ],
+    [
+      0.004073,
+      "\u001b]2;cat Makefile\u0007\u001b]1;cat\u0007"
+    ],
+    [
+      0.003189,
+      "test: test.c\r\n\tgcc test.c -otest\r\n"
+    ],
+    [
+      0.000414,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.000175,
+      "\u001b]2;pcfl@ssd-mint: ~/test\u0007\u001b]1;~/test\u0007"
+    ],
+    [
+      0.152186,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[39m\u001b[0m\u001b[49m\u001b[40m\u001b[39m pcfl@ssd-mint \u001b[44m\u001b[30m\u001b[30m ~/test \u001b[42m\u001b[34m\u001b[30m ➦ db2a8ea \u001b[49m\u001b[32m\u001b[39m \u001b[K"
+    ],
+    [
+      7.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      9.973124,
+      "\r\r\n"
+    ]
+  ],
+  "width": 175,
+  "command": null,
+  "version": 1,
+  "height": 29,
+  "duration": 56.952392,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/usr/bin/zsh"
+  },
+  "title": null
+}

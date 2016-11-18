@@ -12,6 +12,8 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<link rel="stylesheet" type="text/css" href="asciinema-player.css" />
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -41,12 +43,17 @@
 					<!-- don't need a central server -->
 					Linus Torvalds in 2005
 					<!-- heavily used by open source and closed source projects as well -->
+					<!-- CVS difference:
+						* saves the status of the whole project, not only files
+						* works without server
+					-->
+
 				</section>
 				<section>
 					What is version control?
 					<br/>
 					<br/>
-					<img class="fragment fade-in" src="gitg.png" />
+						<img class="fragment fade-in" src="gitgcsdr.png"  />
 					<!-- Goal of version control:
 						* to save the whole project at a given (working) state,
 						* so that you can get back to it, if something is screwed up
@@ -55,6 +62,9 @@
 						Mostly good for text files, but will work with binary files as well.
 					-->
 					<!-- TODO: it allows multiple people to work on the same project at the same time -->
+				</section>
+				<section >
+					<img src="gitgmult.png" />
 				</section>
 				<section>
 					<h2>repository</h2>
@@ -66,39 +76,138 @@
 					Create a new git repository
 				</section>
 				<section>
-					<script type="text/javascript" data-speed="2" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/ai4uz9pcxzat9dvymwtz36ue8.js" id="asciicast-ai4uz9pcxzat9dvymwtz36ue8" async></script>
+					<asciinema-player speed="2" font-size="big" rows="20" src="a/ai4uz9pcxzat9dvymwtz36ue8.json"></asciinema-player>
+					<!--<script type="text/javascript" data-speed="2" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/ai4uz9pcxzat9dvymwtz36ue8.js" id="asciicast-ai4uz9pcxzat9dvymwtz36ue8" async></script>-->
 				</section>
 				<section>
 					<h1>git status</h1>
-					Show if any files <strong>changed</strong> or are <strong>untracked</strong> (not in repo).
+					Show if there are any <u>changed</u> or <u>new</u> (untracked) files.
 				</section>
 				<section>
-					<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/2akflxcxuazwrx38fufcip5d2.js" id="asciicast-2akflxcxuazwrx38fufcip5d2" async></script>
+					<asciinema-player speed="4" font-size="big" rows="20" src="a/2akflxcxuazwrx38fufcip5d2.json"></asciinema-player>
+					<!--<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/2akflxcxuazwrx38fufcip5d2.js" id="asciicast-2akflxcxuazwrx38fufcip5d2" async></script>-->
 				</section>
 				<section>
 					<h1>.gitignore</h1>
-					Tell git to <strong>ignore</strong> some files (build products, temporary files, huge binaries, etc.)
+					Tell git to <u>ignore</u> some files (build products, temporary files, huge binaries, etc.)
 				</section>
 				<section>
-					<script type="text/javascript" data-speed="1" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/bev9ogtp4osqopbyrk8rjgz9d.js" id="asciicast-bev9ogtp4osqopbyrk8rjgz9d" async></script>
+					<asciinema-player speed="1" font-size="big" rows="20" src="a/bev9ogtp4osqopbyrk8rjgz9d.json"></asciinema-player>
+					<!--<script type="text/javascript" data-speed="1" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/bev9ogtp4osqopbyrk8rjgz9d.js" id="asciicast-bev9ogtp4osqopbyrk8rjgz9d" async></script>-->
 				</section>
 				<section>
 					<h1>git add</h1>
 					Add file to the Index (staging area)
 				</section>
 				<section>
-					<script type="text/javascript" data-speed="2" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/6r4aqiwkw2m7lczjofq5qtvgo.js" id="asciicast-6r4aqiwkw2m7lczjofq5qtvgo" async></script>
+					<!--<asciinema-player speed="2" font-size="big" rows="20" src="a/6r4aqiwkw2m7lczjofq5qtvgo.json"></asciinema-player>-->
+					<asciinema-player speed="1" font-size="big" rows="20" src="a/6dssmyxocfmgp8uw2hmt9m51g.json"></asciinema-player>
+					<!--<script type="text/javascript" data-speed="2" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/6r4aqiwkw2m7lczjofq5qtvgo.js" id="asciicast-6r4aqiwkw2m7lczjofq5qtvgo" async></script>-->
 				</section>
 				<section>
 					<h1>git commit</h1>
-					A <strong>commit</strong> is a version of the whole project.
+					A <u>commit</u> is a version of the whole project.
 				</section>
 				<section>
 					<h1>git log</h1>
 					Show commits.
 				</section>
 				<section>
-					<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/9yifsukgfffm72t8pxcsv860s.js" id="asciicast-9yifsukgfffm72t8pxcsv860s" async></script>
+					<asciinema-player speed="1" font-size="big" rows="20" src="a/958q92z0rlc517luah4hk0738.json"></asciinema-player>
+					<!--<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/9yifsukgfffm72t8pxcsv860s.js" id="asciicast-9yifsukgfffm72t8pxcsv860s" async></script>-->
+				</section>
+				<section data-transition="fade">
+					<img src="gp1.png" style="">
+				</section>
+				<section data-transition="fade">
+					<img src="gp2.png" style="">
+				</section>
+				<section data-transition="fade">
+					<img src="gp3.png" style="">
+				</section>
+				<section>
+					<h1>git diff</h1>
+					Show differences.
+				</section>
+				<section>
+					<asciinema-player speed="2" font-size="big" rows="20" src="a/8676a3zw1supyo3hm6alrgpyv.json"></asciinema-player>
+					<!--<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/9yifsukgfffm72t8pxcsv860s.js" id="asciicast-9yifsukgfffm72t8pxcsv860s" async></script>-->
+				</section>
+				<section>
+					Now create a new commit from the changes.
+					<h1>git add test.c</h1>
+					<h1>git commit</h1>
+				</section>
+				<section>
+					<asciinema-player speed="1" font-size="big" rows="20" cols="100" src="a/7szyn7t814dno8d4ldq1evzvo.json"></asciinema-player>
+					<!--<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/9yifsukgfffm72t8pxcsv860s.js" id="asciicast-9yifsukgfffm72t8pxcsv860s" async></script>-->
+				</section>
+				<section data-transition="fade">
+					<img src="gp4.png" style="">
+				</section>
+				<section data-transition="fade">
+					<img src="gp5.png" style="">
+				</section>
+				<section data-transition="fade">
+					<img src="gp7.png" style="">
+				</section>
+				<section>
+					Let's create a third commit as well!
+				</section>
+				<section>
+					<asciinema-player speed="1" font-size="big" rows="20" cols="100" src="a/b7bdarg0ffy2hmvrhixs5mgpc.json"></asciinema-player>
+					<!--<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/9yifsukgfffm72t8pxcsv860s.js" id="asciicast-9yifsukgfffm72t8pxcsv860s" async></script>-->
+				</section>
+				<section>
+					What if we want to go back to a previous commit?
+				</section>
+				<section>
+					<asciinema-player speed="2" font-size="big" rows="20" cols="100" src="a/bjzqj6qtdlgycgnig9gpjph41.json"></asciinema-player>
+					<!--<script type="text/javascript" data-speed="4" data-size="big" data-rows="10" data-preload="1" src="https://asciinema.org/a/9yifsukgfffm72t8pxcsv860s.js" id="asciicast-9yifsukgfffm72t8pxcsv860s" async></script>-->
+				</section>
+				<section>
+					<h1>git branch</h1>
+					<!-- Branches allow multiple developers work together: feature branches
+						Sole developer: test experimental features -->
+				</section>
+				<section>
+					<asciinema-player speed="2" font-size="big" rows="20" cols="100" src="a/4lz3bzlrxjye556cb6xxrlwz3.json"></asciinema-player>
+				</section>
+				<section data-transition="fade"> <img src="gb1.png" style=""> </section>
+				<section data-transition="fade"> <img src="gb2.png" style=""> </section>
+				<section data-transition="fade"> <img src="gb3.png" style=""> </section>
+				<section data-transition="fade"> <img src="gb4.png" style=""> </section>
+				<section data-transition="fade"> <img src="gb6.png" style=""> </section>
+				<section data-transition="fade"> <img src="gb7.png" style=""> </section>
+				<section>
+					<h1>git merge</h1>
+					Merge changes from a given branch to the current one.
+				</section>
+				<section>
+					<asciinema-player speed="1" font-size="big" rows="20" cols="100" src="a/dea043thtx7leyws50ki6wv74.json"></asciinema-player>
+				</section>
+				<section data-transition="fade"> <img src="gm1.png" style=""> </section>
+				<section data-transition="fade"> <img src="gm2.png" style=""> </section>
+				<section data-transition="fade"> <img src="gm3.png" style=""> </section>
+				<section data-transition="fade"> <img src="gm4.png" style=""> </section>
+				<section data-transition="fade"> <img src="gm5.png" style=""> </section>
+				<section>
+					How can we implement a central storage?
+				</section>
+				<section>
+					<h1>git clone</h1>
+					Make a (local) copy of a repository
+				</section>
+				<section>
+					<asciinema-player speed="1" font-size="big" rows="20" cols="100" src="a/bzm8w2c83yvnw7vt0ym6m3vs6.json"></asciinema-player>
+				</section>
+				<section>
+					<h1>git pull</h1>
+					Download changes from remote repository
+				</section>
+				<section>
+					<h1>git push</h1>
+					Upload changes to remote repository
 				</section>
 			</div>
 		</div>
@@ -122,5 +231,6 @@ Fogalmak: repository
 				]
 			});
 		</script>
+		<script src="asciinema-player.js"></script>
 	</body>
 </html>
